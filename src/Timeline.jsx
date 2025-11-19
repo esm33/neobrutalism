@@ -43,7 +43,7 @@ export default function Timeline() {
       <header className="border-b-4 border-black bg-gradient-to-r from-[#0A0E27] via-[#1a1f3a] to-[#0A0E27] backdrop-blur-sm bg-opacity-95">
         <div className="max-w-7xl mx-auto px-4 pt-6 pb-2">
           <div className="flex items-end justify-between">
-            <h1 className="text-[56px] md:text-[92px] leading-none font-black tracking-tight uppercase">NEO</h1>
+            <h1 className="text-[56px] md:text-[92px] leading-none font-black tracking-tight uppercase hover:text-[#CCFF00] transition-colors duration-300 cursor-pointer">NEO</h1>
             <div className="hidden md:flex items-center gap-3 text-sm font-bold">
               <a href="/" className="underline-offset-4 hover:underline">Home</a>
               <a href="/timeline" className="bg-[#7B2CBF] text-white px-4 py-2 border-4 border-black shadow-[6px_6px_0_0_#000]">Timeline</a>
@@ -51,12 +51,12 @@ export default function Timeline() {
           </div>
         </div>
         <nav className="max-w-7xl mx-auto px-4 pb-4 flex items-center gap-4 md:gap-6 text-sm font-bold overflow-x-auto">
-          <a href="/" className="underline-offset-4 hover:underline whitespace-nowrap">Home</a>
-          <a href="/timeline" className="underline-offset-4 underline whitespace-nowrap">Timeline</a>
-          <a href="/designers" className="underline-offset-4 hover:underline whitespace-nowrap">Designers</a>
-          <a href="/about" className="underline-offset-4 hover:underline whitespace-nowrap">About</a>
-          <a href="/#gallery" className="underline-offset-4 hover:underline whitespace-nowrap">Gallery</a>
-          <a href="/#resources" className="underline-offset-4 hover:underline whitespace-nowrap">Resources</a>
+          <a href="/" className="underline-offset-4 hover:underline hover:text-[#CCFF00] transition-colors duration-200 whitespace-nowrap">Home</a>
+          <a href="/timeline" className="underline-offset-4 underline text-[#9D4EDD] whitespace-nowrap">Timeline</a>
+          <a href="/designers" className="underline-offset-4 hover:underline hover:text-[#CCFF00] transition-colors duration-200 whitespace-nowrap">Designers</a>
+          <a href="/about" className="underline-offset-4 hover:underline hover:text-[#9D4EDD] transition-colors duration-200 whitespace-nowrap">About</a>
+          <a href="/#gallery" className="underline-offset-4 hover:underline hover:text-[#CCFF00] transition-colors duration-200 whitespace-nowrap">Gallery</a>
+          <a href="/#resources" className="underline-offset-4 hover:underline hover:text-[#9D4EDD] transition-colors duration-200 whitespace-nowrap">Resources</a>
         </nav>
       </header>
 
