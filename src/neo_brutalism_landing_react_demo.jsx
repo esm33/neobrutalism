@@ -175,6 +175,8 @@ export default function NeoBrutalismLanding() {
                 <img 
                   src={img.src} 
                   alt={img.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
                   onError={(e) => {
                     e.target.style.display = 'none';

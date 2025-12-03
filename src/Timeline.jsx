@@ -179,7 +179,7 @@ export default function Timeline() {
       </section>
 
       {/* ---------- FOOTER ---------- */}
-      <footer className="border-t-4 border-black bg-[#A259FF]">
+      <footer className="border-t-4 border-black bg-[#7B2CBF]">
         <div className="max-w-7xl mx-auto px-4 py-6 text-xs font-bold flex flex-col sm:flex-row items-center justify-between gap-2 text-white">
           <span>© {new Date().getFullYear()} Neo‑Brutalism Lab</span>
           <span className="uppercase">From Concrete to Code</span>
